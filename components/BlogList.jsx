@@ -29,8 +29,8 @@ const BlogList = () => {
         <button onClick={()=>setMenu("History")} className={menu === "History"?'bg-black text-white py-1 px-4 rounded-sm':""}>History</button>
         <button onClick={()=>setMenu("Sports")} className={menu === "Sports"?'bg-black text-white py-1 px-4 rounded-sm':""}>Sports</button>
         <button onClick={()=>setMenu("Esports")} className={menu === "Esports"?'bg-black text-white py-1 px-4 rounded-sm':""}>Esports</button>
-        <button onClick={()=>setMenu("Social Media")} className={menu === "Social Media"?'bg-black text-white py-1 px-4 rounded-sm':""}>Social Media</button>
-        <button onClick={()=>setMenu("Health Care")} className={menu === "Health Care"?'bg-black text-white py-1 px-4 rounded-sm':""}>Health Care</button>
+        <button onClick={()=>setMenu("Social Media")} className={menu === "Social"?'bg-black text-white py-1 px-4 rounded-sm':""}>Social</button>
+        <button onClick={()=>setMenu("Health Care")} className={menu === "Health"?'bg-black text-white py-1 px-4 rounded-sm':""}>Health</button>
         <button onClick={()=>setMenu("Other")} className={menu === "Other"?'bg-black text-white py-1 px-4 rounded-sm':""}>Other</button>
       </div>
       <div className="flex flex-wrap justify-around gap-1 gap-y-10 mb-16 xl:mx-24">
